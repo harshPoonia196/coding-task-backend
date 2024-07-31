@@ -1,6 +1,6 @@
-# Backend for React.js Backend Coding Challenge
+# Backend for React.js Frontend Coding Challenge
 
-This repository contains the backend API for the React.js Backend coding challenge. The backend is built using Node.js, Express, TypeScript, and MongoDB. It provides endpoints to manage user data and handle Excel file uploads.
+This repository contains the backend API for the React.js frontend coding challenge. The backend is built using Node.js, Express, TypeScript, and MongoDB. It provides endpoints to manage user data and handle Excel file uploads.
 
 ## Features
 
