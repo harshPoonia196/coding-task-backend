@@ -21,6 +21,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 install package by running "yarn"
 start development server by "npm run dev"
+The server will start on PORT 4000
 
 ### Clone the Repository
 
