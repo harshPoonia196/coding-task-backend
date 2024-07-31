@@ -37,7 +37,6 @@ export const uploadExcel = async (req: Request, res: Response) => {
     const data = xlsx.utils.sheet_to_json(sheet, { header: 1 });
 
     const { validRows, invalidRows } = validateExcel(data);
-    console.log("validRows, invalidRows ===========>", validRows, invalidRows);
 
     if (invalidRows.length > 0) {
       return res.status(400).json({ error: "Validation failed", invalidRows });
