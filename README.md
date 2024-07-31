@@ -27,5 +27,5 @@ The server will start on PORT 4000
 
 ```sh
 git clone https://github.com/harshPoonia196/coding-task-backend.git
-cd your-repository
+cd coding-task-backend
 ```
