@@ -15,12 +15,14 @@ Before you begin, ensure you have the following installed on your machine:
 
 - Node.js
 - npm (Node Package Manager)
-- Docker (for running MongoDB in a container)
 
 ## Getting Started
 
-install package by running "yarn"
-start development server by "npm run dev"
+```sh
+yarn
+npm run dev
+```
+
 The server will start on PORT 4000
 
 ### Clone the Repository
