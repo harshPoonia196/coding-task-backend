@@ -40,13 +40,13 @@ export const uploadExcel = async (req: Request, res: Response) => {
 
     if (invalidRows.length > 0) {
       return res.status(400).json({ error: "Validation failed", invalidRows });
-    }
-
-    try {
-      await UserData.insertMany(validRows);
-      res.status(200).json({ message: "Data uploaded successfully" });
-    } catch (error: any) {
-      res.status(500).json({ error: error.message });
+    } else {
+      try {
+        await UserData.insertMany(validRows);
+        res.status(200).json({ message: "Data uploaded successfully" });
+      } catch (error: any) {
+        res.status(500).json({ error: error.message });
+      }
     }
   });
 };
